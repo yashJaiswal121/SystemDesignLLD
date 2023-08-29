@@ -1,5 +1,6 @@
 package AbstractFactoryDp;
 
+//Concrete Factory 1
 public class PublicLeagueUniversityFactory extends UniversityFactory {
         @Override
         public AdmitCard getAdmitCard(String course) {

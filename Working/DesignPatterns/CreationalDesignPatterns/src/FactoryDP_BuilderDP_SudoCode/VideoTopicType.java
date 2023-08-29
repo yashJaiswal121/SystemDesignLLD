@@ -1,17 +1,18 @@
 package FactoryDP_BuilderDP_SudoCode;
 
 import java.util.Arrays;
-
+//Steps for Builder Design Pattern
 public class VideoTopicType implements ITopic{
-
+    //Step0: Declare fields of Outerclass and Have only the getters() of those fields.
     private String topicName;
     private Integer length;
     private final TopicMediaType mediaType = TopicMediaType.VIDEO;
     private TopicCodecType codecType;
     private Byte[] data;
 
+    //Step1: Make a Static Nested class as name Builder
     static class Builder{
-
+        //Step2: The Fields of Builder will be same as The Outer Class whose Builder it is.
         private String topicName;
         private Integer length;
         private TopicCodecType codecType;
@@ -19,7 +20,7 @@ public class VideoTopicType implements ITopic{
 
         public Builder setTopicName(String topicName) {
             this.topicName = topicName;
-            return this;
+            return this; //Step3: Make only setters of fields in it, and all of them will return the current Builder object using this.
         }
 
         public Builder setLength(Integer length) {
@@ -36,13 +37,14 @@ public class VideoTopicType implements ITopic{
             this.data = data;
             return this;
         }
-
+        //Step4: Have a build() method in inner class returning a new Object of Outer class prepared from inner Builder Object
         public VideoTopicType build(){
             return new VideoTopicType(this);
         }
 
     }
 
+    //Step5: Have the constructor in Outer class to support the Step4
     public VideoTopicType(Builder builder){
         this.topicName = builder.topicName;
         this.length = builder.length;

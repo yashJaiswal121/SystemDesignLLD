@@ -8,7 +8,6 @@ public class FactoryDP_SudoCode {
     public static void main(String[] args) throws Exception{
 
         //Factory Design Pattern - SudoCode
-        //Factory Gives the Object which are very
         KafkaCourse course1 = (KafkaCourse) CourseFactory.getCourse(KafkaCourse.class);
 
         ModuleTemplate module1 = new ModuleTemplate();
@@ -36,7 +35,7 @@ public class FactoryDP_SudoCode {
 
     private static List<ITopic> getDummyModuleTopics(){
 
-        //Builder Design Pattern - SudoCode
+        //Builder Design Pattern - SudoCode - For Implementation Steps see VideoTopicType class
         VideoTopicType.Builder videoTopicBuilder = new VideoTopicType.Builder();
         VideoTopicType videoTopicType = videoTopicBuilder.setTopicName("What is Apache Kafka?").setCodecType(TopicCodecType.MP4).setLength(1150).setData(null).build();
 

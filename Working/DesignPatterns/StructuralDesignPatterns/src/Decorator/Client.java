@@ -11,6 +11,32 @@ public class Client {
     * Also , to add a new functionality, you add new code, instead of rewrite old code.
     *
     *Example: We have a Plain Pizza, and using it we make various Pizzas at runtime
+    *
+    * Decorator DP UMl:
+    *
+    *               ---------------------       is-a &   ----------------------------                   ------------------------------------
+    *                   IPizza Interface        has-a      ToppingDecorator                                 TomatoSauceToppingDecorator
+    * CLIENT ---->      +getToppings()      <----------     <Abstract Class>                    is-a        <Concrete Clas>
+    *                   +getCost()                          -IPizza pizza;                   <----------
+    *                                                       -ToppingDecorator(IPizza){                 -TomatoSauceToppingDecorator(IPizza){
+    *                                                         ....Impl  }                                   super(ipizza);......Impl}
+    *
+    *                                                       +getToppings(); //Can also have             -getToppings(){.... Impl}
+    *                                                       +getCost();    //impl to it                 -getCost(){.... Impl}
+     *               ---------------------               -----------------------------                  -------------------------------------
+    *                   ^
+    *                   | implements
+    *                   |
+    *     ------------------------
+    *       Pizza Concrete Class
+    *        -getDescription(){
+    *           ..Impl
+    *          }
+    *        -getCost(){
+     *           ..Impl
+     *          }
+    *     -----------------------
+    *
     * */
 
     public static void main(String[] args) {

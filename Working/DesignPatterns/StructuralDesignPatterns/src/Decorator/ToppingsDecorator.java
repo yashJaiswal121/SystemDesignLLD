@@ -10,18 +10,18 @@ public abstract class ToppingsDecorator implements IPizza {
     }
 
 
-    @Override
-    public void breadSpec() {
-        this.pizza.breadSpec();
-    }
-
-    @Override
-    public List<String> getToppings() {
-        return this.pizza.getToppings();
-    }
-
-    @Override
-    public double getCost() {
-        return this.pizza.getCost();
-    }
+//    @Override
+//    public void breadSpec() {
+//        this.pizza.breadSpec();
+//    }
+//
+//    @Override
+//    public List<String> getToppings() {
+//        return this.pizza.getToppings();
+//    }
+//
+//    @Override
+//    public double getCost() {
+//        return this.pizza.getCost();
+//    }
 }

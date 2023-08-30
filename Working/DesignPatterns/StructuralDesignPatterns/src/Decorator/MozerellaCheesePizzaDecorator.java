@@ -9,6 +9,12 @@ public class MozerellaCheesePizzaDecorator extends ToppingsDecorator{
         super.pizza.getToppings().add("Mozirella Cheese");
     }
 
+
+    @Override
+    public void breadSpec() {
+        this.pizza.breadSpec();
+    }
+
     @Override
     public List<String> getToppings() {
         System.out.println("Added Cheese Topping to Pizza");

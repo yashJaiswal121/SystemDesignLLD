@@ -44,7 +44,8 @@ public class DeliveryService {
                 return agent1;
             });
             jdbcTemplate.update("UPDATE AGENT SET IS_RESERVED = 'Y' WHERE ID = ?", new Object[]{agent.getId()});
-          //  jdbcTemplate.execute("END"); //END TXN
+            jdbcTemplate.execute("COMMIT");
+            //  jdbcTemplate.execute("END"); //END TXN
             //Now... Our RESOURCE IS RESERVED AND THUS OUR BLAST RADIUS IS REDUCED(Like Resource contention, Consistency, Concurrency issues will not happen after this point)
 
         }catch (Exception e){
@@ -72,6 +73,7 @@ public class DeliveryService {
                 throw new RuntimeException("Null AgentID");
 
             jdbcTemplate.update("UPDATE AGENT SET IS_RESERVED = 'N' ,  ORDER_ID = ? WHERE ID = ?",orderId,agentId);
+            jdbcTemplate.execute("COMMIT");
         //    jdbcTemplate.execute("END");
 
         }catch (Exception e){

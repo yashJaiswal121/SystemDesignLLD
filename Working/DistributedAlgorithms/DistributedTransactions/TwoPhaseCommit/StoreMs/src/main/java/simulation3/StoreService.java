@@ -43,6 +43,7 @@ public class StoreService {
                 return foodPacket;
             });
             jdbcTemplate.update("UPDATE PACKETS SET IS_RESERVED = 'Y' WHERE ID = ? ", new Object[]{packet.getId()});
+            jdbcTemplate.execute("COMMIT");
             //jdbcTemplate.execute("END"); //END TRANSACTION
             //Now... Our RESOURCE IS RESERVED AND THUS OUR BLAST RADIUS IS REDUCED(Like Resource contention, Consistency, Concurrency issues will not happen after this point)
 
@@ -72,6 +73,7 @@ public class StoreService {
                 throw new RuntimeException("Null PacketId");
 
             jdbcTemplate.update("UPDATE PACKETS SET IS_RESERVED = 'N' ,  ORDER_ID = ? WHERE ID = ?",orderId,packetId);
+            jdbcTemplate.execute("COMMIT");
            // jdbcTemplate.execute("END"); //END TRANSACTION
 
         }catch (Exception e){

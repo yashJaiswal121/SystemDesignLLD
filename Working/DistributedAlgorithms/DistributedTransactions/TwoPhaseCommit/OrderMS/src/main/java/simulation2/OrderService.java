@@ -14,6 +14,8 @@ import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
+//https://www.youtube.com/watch?v=oMhESvU87jM
+//Only to Invoke this service externally. I will do 2PC
 @RestController
 @RequestMapping("/order")
 public class OrderService {

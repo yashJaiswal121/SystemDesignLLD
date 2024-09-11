@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Working/DesignPatterns/BehavioralDesignPatterns/BehavioralDesignPatterns.iml" filepath="$PROJECT_DIR$/Working/DesignPatterns/BehavioralDesignPatterns/BehavioralDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/DeliveryMS/DeliveryMS.iml" filepath="$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/DeliveryMS/DeliveryMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/OrderMS/OrderMS.iml" filepath="$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/OrderMS/OrderMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/StoreMs/StoreMs.iml" filepath="$PROJECT_DIR$/Working/DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/StoreMs/StoreMs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working/DesignPatterns/StructuralDesignPatterns/StructuralDesignPatterns.iml" filepath="$PROJECT_DIR$/Working/DesignPatterns/StructuralDesignPatterns/StructuralDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SystemDesignLLD.iml" filepath="$PROJECT_DIR$/SystemDesignLLD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Working/Zookeeper/Zookeeper.iml" filepath="$PROJECT_DIR$/Working/Zookeeper/Zookeeper.iml" />
+    </modules>
+  </component>
+</project>

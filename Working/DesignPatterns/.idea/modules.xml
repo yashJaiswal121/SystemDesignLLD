@@ -4,9 +4,18 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BehavioralDesignPatterns/BehavioralDesignPatterns.iml" filepath="$PROJECT_DIR$/BehavioralDesignPatterns/BehavioralDesignPatterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/CreationalDesignPatterns/CreationalDesignPatterns.iml" filepath="$PROJECT_DIR$/CreationalDesignPatterns/CreationalDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/DeliveryMS/DeliveryMS.iml" filepath="$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/DeliveryMS/DeliveryMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DesignPatterns.iml" filepath="$PROJECT_DIR$/.idea/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DistributedAlgorithms/DistributedAlgorithms.iml" filepath="$PROJECT_DIR$/../DistributedAlgorithms/DistributedAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Kafka/Kafka.iml" filepath="$PROJECT_DIR$/../Kafka/Kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/Multithreading/Multithreading.iml" filepath="$PROJECT_DIR$/Multithreading/Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/OrderMS/OrderMS.iml" filepath="$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/OrderMS/OrderMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../AdvanceJava/Reflection/Reflection.iml" filepath="$PROJECT_DIR$/../../../AdvanceJava/Reflection/Reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../AdvanceJava/SpringSecurity/Working/SpringSecurityDemos/SpringSecurityConcepts/SpringSecurityConcepts.iml" filepath="$PROJECT_DIR$/../../../AdvanceJava/SpringSecurity/Working/SpringSecurityDemos/SpringSecurityConcepts/SpringSecurityConcepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../AdvanceJava/SpringSecurity/Working/SpringSecurityDemos/SpringSecurityDemos.iml" filepath="$PROJECT_DIR$/../../../AdvanceJava/SpringSecurity/Working/SpringSecurityDemos/SpringSecurityDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/StoreMs/StoreMs.iml" filepath="$PROJECT_DIR$/../DistributedAlgorithms/DistributedTransactions/TwoPhaseCommit/StoreMs/StoreMs.iml" />
       <module fileurl="file://$PROJECT_DIR$/StructuralDesignPatterns/StructuralDesignPatterns.iml" filepath="$PROJECT_DIR$/StructuralDesignPatterns/StructuralDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Zookeeper/Zookeeper.iml" filepath="$PROJECT_DIR$/../Zookeeper/Zookeeper.iml" />
     </modules>
   </component>
 </project>

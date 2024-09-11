@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Kafka" />
+        <module name="OrderMS" />
+        <module name="DeliveryMS" />
+        <module name="Zookeeper" />
+        <module name="StoreMs" />
+        <module name="SpringSecurityConcepts" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DeliveryMS" target="11" />
+      <module name="DistributedAlgorithms" target="11" />
+      <module name="DistributedConcurrencyControl" target="11" />
+      <module name="DistributedTransactions" target="1.7" />
+      <module name="Kafka" target="11" />
+      <module name="OrderMicroService" target="11" />
+      <module name="OrderMS" target="11" />
+      <module name="SpringSecurityConcepts" target="11" />
+      <module name="StoreMs" target="11" />
+      <module name="TwoPhaseCommit" target="11" />
+      <module name="Zookeeper" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DeliveryMS" options="-parameters" />
+      <module name="OrderMS" options="-parameters" />
+      <module name="SpringSecurityConcepts" options="-parameters" />
+      <module name="StoreMs" options="-parameters" />
+    </option>
+  </component>
+</project>
